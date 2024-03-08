@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-image: url('./bball.webp');
+  background-repeat: no-repeat;
+  background-size: cover; /* This property ensures that the image covers the entire background */
+  background-attachment: fixed; /* This property fixes the background image, preventing it from scrolling with the content */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  font-family: Arial, sans-serif; /* Set default font family */
+}
